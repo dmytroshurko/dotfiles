@@ -10,3 +10,7 @@
 	path = vim/pack/vendor/start/nerdtree
 	url = https://github.com/preservim/nerdtree
 	ignore = untracked
+[submodule "vim/pack/vendor/start/vimwiki"]
+	path = vim/pack/vendor/start/vimwiki
+	url = https://github.com/vimwiki/vimwiki
+	ignore = untracked
