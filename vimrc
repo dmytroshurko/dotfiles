@@ -55,3 +55,8 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " ctrlp.vim
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" vimwiki
+let g:nested_syntaxes = {'python': 'python', 'c++': 'cpp', 'c': 'c', 'bash': 'bash', 'json': 'json', 'vim': 'vim'}
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md', 'nested_syntaxes': nested_syntaxes}]
+let g:vimwiki_global_ext = 0
