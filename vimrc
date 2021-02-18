@@ -61,6 +61,7 @@ let wiki = {}
 let wiki.path = '~/vimwiki/'
 let wiki.syntax = 'markdown'
 let wiki.ext = '.md'
+let wiki.links_space_char = '_'
 let wiki.template_path = '~/vimwiki/templates/'
 let wiki.template_default = 'template'
 let wiki.template_ext = '.tpl'
