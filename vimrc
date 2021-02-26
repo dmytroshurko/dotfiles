@@ -56,9 +56,6 @@ nnoremap <C-f> :NERDTreeFind<CR>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-" EasyMotion
-map <Leader> <Plug>(easymotion-prefix)
-
 " vimwiki
 let wiki = {}
 let wiki.path = '~/vimwiki/'
