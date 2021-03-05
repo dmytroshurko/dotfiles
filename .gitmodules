@@ -14,3 +14,7 @@
 	path = vim/pack/vendor/start/vimwiki
 	url = https://github.com/vimwiki/vimwiki
 	ignore = untracked
+[submodule "vim/pack/vendor/start/auto-pairs"]
+	path = vim/pack/vendor/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+	ignore = untracked
