@@ -26,3 +26,7 @@
 	path = vim/pack/vendor/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
 	ignore = untracked
+[submodule "vim/pack/vendor/start/vim-repeat"]
+	path = vim/pack/vendor/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+	ignore = untracked
