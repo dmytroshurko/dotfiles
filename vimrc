@@ -56,6 +56,9 @@ nnoremap <C-f> :NERDTreeFind<CR>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+" commentary.vim
+autocmd FileType c,cpp setlocal commentstring=//\ %s
+
 " vimwiki
 let wiki = {}
 let wiki.path = '~/vimwiki/'
