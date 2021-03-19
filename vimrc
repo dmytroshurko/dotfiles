@@ -58,20 +58,3 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " commentary.vim
 autocmd FileType c,cpp setlocal commentstring=//\ %s
-
-" vimwiki
-let wiki = {}
-let wiki.path = '~/vimwiki/'
-let wiki.syntax = 'markdown'
-let wiki.ext = '.md'
-let wiki.links_space_char = '_'
-let wiki.template_path = '~/vimwiki/.templates/'
-let wiki.template_default = 'template'
-let wiki.template_ext = '.tpl'
-let wiki.custom_wiki2html = 'vimwiki_markdown'
-let wiki.path_html = '~/vimwiki/vimwiki_html'
-let wiki.html_filename_parameterization = 1     " for integration with the vimwiki_markdown gem
-let wiki.list_margin = 0
-let g:vimwiki_list = [wiki]
-let g:vimwiki_hl_headers = 1
-let g:vimwiki_global_ext = 0
