@@ -26,3 +26,11 @@
 	path = vim/pack/vendor/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat
 	ignore = untracked
+[submodule "vim/pack/vendor/start/ultisnips"]
+	path = vim/pack/vendor/start/ultisnips
+	url = https://github.com/SirVer/ultisnips
+	ignore = untracked
+[submodule "vim/pack/vendor/start/vim-snippets"]
+	path = vim/pack/vendor/start/vim-snippets
+	url = https://github.com/honza/vim-snippets
+	ignore = untracked

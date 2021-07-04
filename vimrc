@@ -58,3 +58,6 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " commentary.vim
 autocmd FileType c,cpp setlocal commentstring=//\ %s
+
+" UltiSnips
+let g:UltiSnipsExpandTrigger="<tab>"
